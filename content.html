@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta http-equiv="cleartype" content="on">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+	<title>GreenPay Mobile</title>
+
+	<!--Include JQM and JQ-->
+	<!--<link rel="stylesheet" href="css/bootstrap-combined.min.css" />-->
+	<link rel="stylesheet" href="css/themes/jqmfb.min.css" />
+	<link rel="stylesheet" href="css/jquery.mobile.structure.min.css" />
+	<link rel="stylesheet" href="css/treemenu.css" />
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/jquery.animate-enhanced.min.js"></script>
+	<script src="js/treemenu.js"></script>
+	
+	<!--JQM globals you can edit or remove file entirely... note it needs to be loaded before jquerymobile js -->
+	<script src="js/jqm.globals.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.mobile.min.js"></script>
+
+	<!--JQM SlideMenu-->
+	<link rel="stylesheet" href="css/jqm.slidemenu.css" />
+	<script src="js/jqm.slidemenu.js"></script>
+</head>
+<body>
+
+	<div id="slidemenu">
+
+		<div id="profile">
+			<img src="res/img/tegan.jpg">
+			<div class="profile_info"><strong>Andry Prianto</strong><br><small>Web &amp; Mobile Developer</small></div>
+		</div>
+
+		<h3>Transaksi</h3>
+
+		<ul>
+			<li><a href="#main_page"><img src="res/img/smico3.png">Pembayaran</a></li>
+			<li><a href="#another_page"><img src="res/img/smico4.png">Pembelian</a></li>
+			<li><a href="#another_page2"><img src="res/img/smico5.png">Cek Tagihan</a></li>
+			<li><a href="#another_page3"><img src="res/img/smico6.png">History</a></li>
+		</ul>
+
+		<h3>Akun</h3>
+
+		<ul>
+			<li><a href="#another_page3"><img src="res/img/smico3.png">Cek Saldo</a></li>
+			<li><a href="test.html" rel="external"><img src="res/img/smico5.png">Transfer</a></li>
+		</ul>
+
+		<h3>Lain-Lain</h3>
+
+		<ul>
+			<li><a href="#another_page3"><img src="res/img/smico3.png">Pengaturan</a></li>
+			<li><a href="test.html" rel="external"><img src="res/img/smico5.png">Bantuan</a></li>
+		</ul>
+
+	</div>
+
+	<div data-role="page" id="main_page" data-theme="a">
+
+		<div data-role="header" data-position="fixed" data-tap-toggle="false" data-update-page-padding="false">
+			<a href="#" data-slidemenu="#slidemenu" data-slideopen="false" data-icon="smico" data-corners="false" data-iconpos="notext">Menu</a>
+			<h1>GreenPay Mobile</h1>
+		</div>
+
+		<div data-role="content">
+
+<div class="tree">
+    <ul>
+        <li>
+            <span><i class="icon-th-large"></i> Topup Voucher</span>
+            <ul>
+                <li>
+                	<span class="badge badge-important"><i class="icon-minus-sign"></i> Telkomsel</span>
+                    <ul>
+                        <li>
+	                        <a href=""><span><i class="icon-time"></i> Voucher Rp.100.000,-</span></a>
+                        </li>
+ 			<li>
+	                        <a href=""><span><i class="icon-time"></i> Voucher Rp.50.000,-</span></a>
+                        </li>
+ 			<li>
+	                        <a href=""><span><i class="icon-time"></i> Voucher Rp.25.000,-</span></a>
+                        </li>
+ 			<li>
+	                        <a href=""><span><i class="icon-time"></i> Voucher Rp.10.000,-</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                	<span class="badge badge-warning"><i class="icon-minus-sign"></i> Indosat</span>
+                    <ul>
+                        <li>
+	                        <a href=""><span><i class="icon-time"></i> Voucher Rp.100.000,-</span></a>
+                        </li>
+ 			<li>
+	                        <a href=""><span><i class="icon-time"></i> Voucher Rp.50.000,-</span></a>
+                        </li>
+ 			<li>
+	                        <a href=""><span><i class="icon-time"></i> Voucher Rp.25.000,-</span></a>
+                        </li>
+ 			<li>
+	                        <a href=""><span><i class="icon-time"></i> Voucher Rp.10.000,-</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                	<span class="badge badge-info"><i class="icon-minus-sign"></i> Exelcom</span>
+                    <ul>
+                        <li>
+	                        <a href=""><span><i class="icon-time"></i> Voucher Rp.100.000,-</span></a>
+                        </li>
+ 			<li>
+	                        <a href=""><span><i class="icon-time"></i> Voucher Rp.50.000,-</span></a>
+                        </li>
+ 			<li>
+	                        <a href=""><span><i class="icon-time"></i> Voucher Rp.25.000,-</span></a>
+                        </li>
+ 			<li>
+	                        <a href=""><span><i class="icon-time"></i> Voucher Rp.10.000,-</span></a>
+                        </li>                        
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <span><i class="icon-th-large"></i> Transaksi PLN</span>
+            <ul>
+                <li>
+                	<span class="badge badge-success"><i class="icon-minus-sign"></i> Tagihan Pascabayar</span>
+                    <ul>
+			<li>
+	                        <span><i class="icon-time"></i> Bulan Februari 2015</span> &ndash; <a href="">Rp.132.000,-</a>
+                        </li>
+                        <li>
+	                        <span><i class="icon-time"></i> Bulan Maret 2015</span> &ndash; <a href="">Rp.125.000,-</a>
+                        </li>
+                        <li>
+	                        <span><i class="icon-time"></i> Bulan Mei 2015</span> &ndash; <a href="">Rp.155.000,-</a>
+                        </li>
+                    </ul>
+                </li>
+		<li>
+                	<span class="badge badge-warning"><i class="icon-minus-sign"></i> Token Prabayar</span>
+                    <ul>
+			<li>
+	                        <span><i class="icon-time"></i>Rp.50.000,-</span></a>
+                        </li>
+                        <li>
+	                        <span><i class="icon-time"></i>Rp.100.000,-</span></a>
+                        </li>
+                        <li>
+	                        <span><i class="icon-time"></i>Rp.150.000,-</span></a>
+                        </li>
+                    </ul>
+                </li>
+		    <li>
+                	<span class="badge badge-important"><i class="icon-minus-sign"></i> Lain-lain</span>
+                    <ul>
+			<li>
+	                        <span><i class="icon-time"></i>Pemasangan Baru</span></a>
+                        </li>
+                        <li>
+	                        <span><i class="icon-time"></i>Tambah Daya</span></a>
+                        </li>
+                        <li>
+	                        <span><i class="icon-time"></i>Migrasi</span></a>
+                        </li>
+                    </ul>
+                </li>
+		    </ul>
+        </li>
+    </ul>
+</div>
+
+		</div>
+
+	</div>
+	
+	<div data-role="page" id="another_page" data-theme="a">
+
+		<div data-role="header" data-position="fixed" data-tap-toggle="false" data-update-page-padding="false">
+			<a href="#" data-slidemenu="#slidemenu" data-slideopen="false" data-icon="smico" data-corners="false" data-iconpos="notext">Menu</a>
+			<h1>GreenPay Mobile</h1>
+		</div>
+
+		<div data-role="content">
+		
+			<h2>Under Construction</h2>
+			<p>This section is under development</p>
+		</div>
+
+	</div>
+	
+	<div data-role="page" id="another_page2" data-theme="a">
+
+		<div data-role="header" data-position="fixed" data-tap-toggle="false" data-update-page-padding="false">
+			<a href="#" data-slidemenu="#slidemenu" data-slideopen="false" data-icon="smico" data-corners="false" data-iconpos="notext">Menu</a>
+			<h1>GreenPay Mobile</h1>
+		</div>
+
+		<div data-role="content">
+		
+			<h2>Under Construction</h2>
+			<p>This section is under development</p>
+		</div>
+
+	</div>
+	
+	<div data-role="page" id="another_page3" data-theme="a">
+
+		<div data-role="header" data-position="fixed" data-tap-toggle="false" data-update-page-padding="false">
+			<a href="#" data-slidemenu="#slidemenu" data-slideopen="false" data-icon="smico" data-corners="false" data-iconpos="notext">Menu</a>
+			<h1>GreenPay Mobile</h1>
+		</div>
+
+		<div data-role="content">
+		
+			<h2>Under Construction</h2>
+			<p>This section is under development</p>
+		</div>
+
+	</div>
+	
+</body>
+
+<script>
+$( document ).ready(function() {
+$('.tree li.parent_li > span').trigger('click');
+});
+</script>
+</html>
