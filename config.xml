@@ -5,10 +5,10 @@
         id        = "com.tutorialspoint.onlineviewer"
         version   = "1.0">
 
-    <name>Green Pay</name>
+    <name>GreenPay</name>
 
     <description>
-        Tutorials Point Online Viewer
+        GreenPay Mobile
     </description>
 
     <author href="http://tutorialspoint.com" email="contact@tutorialspoint.com">
